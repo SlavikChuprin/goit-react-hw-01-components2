@@ -16,9 +16,9 @@ stats = {},
       alt="Аватар пользователя"
       className={s.avatar}
     />
-    <p className="name">{name}</p>
-    <p className="tag">@{tag}</p>
-    <p className="location">{location}</p>
+    <p className={s.name}>{name}</p>
+    <p className={s.tag}>@{tag}</p>
+    <p className={s.location}>{location}</p>
   </div>
 
   <ul className={s.stats}>
