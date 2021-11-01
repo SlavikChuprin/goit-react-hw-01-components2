@@ -17,7 +17,7 @@
   box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
 }
 
-.status {
+.onLine {
   display: block;
   width: 20px;
   height: 20px;
@@ -25,8 +25,18 @@
   border-radius: 50%;
   overflow: hidden;
   margin-right: 20px;
+  background-color: green;
 }
-
+.offLine {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  background-color: red;
+}
 .avatar {
   margin-right: 20px;
 }
